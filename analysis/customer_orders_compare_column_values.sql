@@ -1,7 +1,7 @@
 {# in dbt Develop #}
 
 {% set old_etl_relation_query %}
-    select * from dbt_bthompson.customer_orders
+    select * from `dbt-refactor`.`dbt_bthompson`.`customer_orders`
 {% endset %}
 
 {% set new_etl_relation_query %}
